@@ -75,5 +75,3 @@ def calculate(x):
         if x<0.0:
             return (0)
     return(exponent(x)*XtimesY(7,x)*XtimesY(x,-1)*sqrt(x,x))
-
-def calculate(x:float) -> float:
