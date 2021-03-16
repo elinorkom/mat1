@@ -44,7 +44,7 @@ def exponent(num):
         i=i-1
     return (1+exp)
 
-def Ln(num):
+def ln(num):
     if num<=0:
         return (0)
     else:
@@ -58,7 +58,7 @@ def Ln(num):
 
 def XtimesY(x,y):
     if x>0:
-        return (exponent(y*Ln(x)))
+        return (exponent(y*ln(x)))
     else:
         return (0)
 
